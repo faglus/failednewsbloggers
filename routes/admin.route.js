@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 
-
+console.log(abc)
 
 
 admin_router.get('/login', adminController.login);
