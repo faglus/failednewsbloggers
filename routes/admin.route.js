@@ -40,7 +40,7 @@ const upload = multer({ storage: storage });
 
 
 
-admin_router.get('/login', adminController.login);
+// admin_router.get('/login', adminController.login);
 
 admin_router.get('/blog-setup', adminController.blogSetup);
 
